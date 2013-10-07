@@ -4,8 +4,7 @@ import time
 import datetime
 import csv, sys, urlparse
 
-graph = facebook.GraphAPI('CAACEdEose0cBAK57SejDPtOyM1xUIUxbzAN74Ys5ZCroxQGESLN4jdJGY690UoIy4Y5pVKl5NXzi38SV04OVy7KAtUZC6kVQ2qYEnUWraGZAVfgwMjUFUjOAP9fS8WgS5RTZC1fg5I5NbEI67FLq3JiEOQZBN7NoOSySPC5P9dbpZATQUspTP3OZCXr0Nz1P818OZB1ftBYfnQZDZD')
-
+graph = facebook.GraphAPI('CAACEdEose0cBAJHZCrIZAtgxIBk2bRTzNWm8Pp5fZBviccS8xSeeEQJ7cO4ExPISf4qgQ7ZCtoueTkBjIRnuCLkmLLUXr1g1ZA9UhudbXElXeYrXjY28ETUkhUGhhsi7cIMDH09lbZAo6OT97kVbfHEoP2Hz2ZCLk0pwGSbbrtuNCgKrj8gr3ex5Lex2Uob4u6VJ5GJ4rECEQZDZD')
 records = []
 count = 1
 pageid = 'wsj'
