@@ -4,7 +4,7 @@ import time
 import datetime
 import csv, sys, urlparse
 
-graph = facebook.GraphAPI('CAACEdEose0cBAJHZCrIZAtgxIBk2bRTzNWm8Pp5fZBviccS8xSeeEQJ7cO4ExPISf4qgQ7ZCtoueTkBjIRnuCLkmLLUXr1g1ZA9UhudbXElXeYrXjY28ETUkhUGhhsi7cIMDH09lbZAo6OT97kVbfHEoP2Hz2ZCLk0pwGSbbrtuNCgKrj8gr3ex5Lex2Uob4u6VJ5GJ4rECEQZDZD')
+graph = facebook.GraphAPI('CAAB8StE8fOEBAJHd2dbCLAJpZAkVZAtrjf5ihL3Q4Y2JZA7Fc0z1VP7A6jVMrZCYNPCe8jocu6WZA3xsSYFZCzADG1SjzYItoOh0wOekrU66oWhPZBHPP8sZCFXLzmeswdSSimErcnoMlRRtgEoP0Xyi2G09lpBd5SNXYBRdugMqAUQlHlLHzsf4kKZCvC4jQKbFqm2auQCBPEgZDZD')
 records = []
 count = 1
 pageid = 'wsj'
@@ -49,7 +49,7 @@ while True:
 			print rec
 			print '\n=======================================\n'
 
-	with open('wsj.csv', 'wb') as f:  # Just use 'w' mode in 3.x
+	with open('wsj2.csv', 'wb') as f:  # Just use 'w' mode in 3.x
 	    w = csv.DictWriter(f, records[0].keys())
 
 	    if flag:
